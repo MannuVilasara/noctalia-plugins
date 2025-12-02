@@ -74,7 +74,6 @@ Every plugin must include a `manifest.json` file with the following fields:
 The plugin registry is automatically maintained using GitHub Actions:
 
 - **Automatic Updates**: Registry updates when manifest.json files are modified
-- **Manual Updates**: Run `node .github/workflows/update-registry.js` locally
 - **PR Validation**: Pull requests show if registry will be updated
 
 See [.github/workflows/README.md](.github/workflows/README.md) for technical details.

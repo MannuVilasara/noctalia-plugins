@@ -6,13 +6,6 @@ This directory contains automation scripts for maintaining the plugin registry.
 
 Automatically scans plugin directories and updates `registry.json` with current plugin metadata.
 
-### Usage
-
-```bash
-# Run manually
-node scripts/update-registry.js
-```
-
 ### How It Works
 
 1. Scans all directories in the repository root
