@@ -26,7 +26,7 @@ Item {
         Rectangle {
             anchors.fill: parent
             anchors.margins: Style.marginL
-            color: Settings.data.colorSchemes.darkMode ? "white" : "black"
+            color: Color.mSurface
             radius: Style.radiusL
             border.color: Color.mOutline
             border.width: Style.borderS
@@ -92,7 +92,7 @@ Item {
                     text: (pluginApi?.tr("panel.cpuLabel") || "CPU: {usage}%").replace("{usage}", Math.round(SystemStatService.cpuUsage))
                     font.pointSize: Style.fontSizeXL
                     font.weight: Font.Bold
-                    color: Settings.data.colorSchemes.darkMode ? "black" : "white"
+                    color: Settings.data.colorSchemes.darkMode ? "white" : "black"
                 }
             }
         }
